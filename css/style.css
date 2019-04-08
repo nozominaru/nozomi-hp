@@ -163,15 +163,15 @@ img {
 /* schedule.html */
 
 .date {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0 0 0.5em 0;
 }
 
 .adress {
     margin: 0 0 3em 0}
 
-main {
-    line-height: 30px;
+.schedule-contents {
+    line-height: 25px;
 }   
 
 /* access.html */
