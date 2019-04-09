@@ -55,7 +55,7 @@ img {
     left:0;
     z-index:20px;
     width:100%;
-    background-color: rgba(250, 255, 255, 0.95);
+    background-color: rgba(228, 233, 238, 0.486);
 }
 
 .space{
@@ -129,6 +129,7 @@ main{
     width: 60%;
     padding-left: 5%;
     padding-right: 5%;
+    font-family:arial,Yugothic ;
 }
 
 .kanji_name {
@@ -168,8 +169,14 @@ main{
     margin: auto;   
 }
 .profile {
-    margin: 16px 2em;
-    padding: 16px 120px;
+    margin: 5px 2em;
+    padding: 5px 120px;
+}
+.profile-name{
+    margin: 5px 1em;
+    padding: 5px 120px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .clear {
     clear: both;
