@@ -49,6 +49,15 @@ img {
 }
 
 /*すべてのwebページに適用　- ヘッダー -　*/
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:20px;
+    width:100%;
+    background-color: rgba(250, 255, 255, 0.95);
+}
+
 .space{
     padding: 10px;
     width: auto;
@@ -62,9 +71,7 @@ img {
 .nav ul {
     text-align: right;
     margin: 0 0 0 0 ;
-    padding: 25px 10px 50px 20px ;
-    
-
+    padding: 20px 10px 20px 20px ;
 }
 .nav a:link {
     color: #3c454d ;
@@ -83,7 +90,13 @@ img {
     text-decoration: none;
 }
 
-/*すべてのwebページに適用　- フッダー -　*/
+/*すべてのwebページに適用　- メイン -　*/
+main{
+    padding-top: 50px;
+}
+
+/*すべてのwebページに適用　- フッター -　*/
+
 .footer {
     background-repeat: no-repeat ;
     margin-top: 30px;
@@ -95,9 +108,6 @@ img {
 
 /* 個別のスタイル */
 /* index.html */
-.top {
-
-}
 .keyvisual {
     width: 50%;
     height: 50%;
@@ -109,6 +119,7 @@ img {
     height: 30%;
 }
 .image_box{
+    padding-top: 30px;
     display: flex;
 }
 .image_box_left{
@@ -131,6 +142,11 @@ img {
 .news-item {
     margin: 30px;
     width: 300px;
+}
+
+.twitter{
+    padding-right: 50px;
+    text-align: right;
 }
 
 .line-qr {
@@ -177,6 +193,10 @@ img {
 /* works.html */
 .movie-title {
     font-size: 20px;
+    margin: 0 0 5px 0;
+}
+.movie{
+    margin: 0.5em 0 1em 0 ;
 }
 
 /* contact.html */
