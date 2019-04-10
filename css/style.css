@@ -93,6 +93,8 @@ img {
 /*すべてのwebページに適用　- メイン -　*/
 main{
     padding-top: 50px;
+    font-family:Yugothic ;
+
 }
 
 /*すべてのwebページに適用　- フッター -　*/
@@ -103,6 +105,7 @@ main{
     padding: 50px 15px 20px 15px;
     font-size: 12px;
     color: #3f5170;
+    font-family:Yugothic ;
 }
 
 
@@ -129,17 +132,17 @@ main{
     width: 60%;
     padding-left: 5%;
     padding-right: 5%;
-    font-family: arial ;
+    
 }
 
 .kanji_name {
     font-size: 20px;
-    font-family: Yugothic ;
+    
 }
 .short_explanation{
     padding-top: 0;
     font-size: 15px;
-    font-family: Yugothic;
+    
 }
 /* news */
 .instagram {
@@ -159,14 +162,9 @@ main{
 }
 
 
-.line-qr {
-    width: 100px;
-    height: 100px;
-}
-
 .line-icon {
-    width: 10%;
-    height: 10%;
+    width: 126px;
+    height: 39px;
 }
 
 /* profile.html*/
@@ -197,6 +195,7 @@ main{
 .date {
     font-size: 25px;
     margin: 0 0 0.5em 0;
+    font-weight: bold;
 }
 
 .adress {
@@ -205,6 +204,10 @@ main{
 .schedule-contents {
     line-height: 25px;
 }   
+
+.schedule-comment{
+    margin-top: 40px; 
+}
 
 /* works.html */
 .movie-title {
