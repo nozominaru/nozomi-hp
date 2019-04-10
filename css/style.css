@@ -93,7 +93,7 @@ img {
 /*すべてのwebページに適用　- メイン -　*/
 main{
     padding-top: 50px;
-    font-family:Yugothic ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
 }
 
@@ -213,6 +213,8 @@ main{
 .movie-title {
     font-size: 20px;
     margin: 0 0 5px 0;
+    font-weight: bold;
+    
 }
 .movie{
     margin: 0.5em 0 1em 0 ;
