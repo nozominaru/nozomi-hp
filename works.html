@@ -10,7 +10,7 @@
 <body>
 <div class="wrapper">
    <!--ヘッダー-->
-    <header class="header">
+    <header class="header header_hidden" id="header">
         <nav class="nav">
             <ul>
                 <li><a href="index.html">Top</a></li>
@@ -47,5 +47,18 @@
     </footer>
     <!--フッターここまで-->
 </div>
-</body>    
+</body>   
+<script>
+window.addEventListener( "scroll", function() {
+
+var headerElement = document.getElementById( "header" );
+var rect = headerElement.getBoundingClientRect(); 
+var y = rect.top + window.pageYOffset ;
+if (y > 0) {
+  headerElement.classList.remove('header_hidden');
+} else {
+  headerElement.classList.add('header_hidden');
+}
+} ) ;
+</script> 
 </html>
