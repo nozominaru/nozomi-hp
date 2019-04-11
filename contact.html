@@ -27,27 +27,20 @@
         <h2>Contact</h2>
 
         <p>ライブのご予約やお仕事のご依頼、その他お問い合わせはこちらまで</p>
-        <form method="GET" action="result.html" netlify>
-            <div>
-                <label for="kind">お問い合わせの種類</label><br>
-                <select id="kind" name="kind">
-                    <option value="reservation">ライブのご予約</option>
-                    <option value="event">お仕事依頼</option>
-                    <option value="contact">その他のお問い合わせ</option>
-                </select>
-            </div>
-            <div>
-                <label>お問い合わせの件名<br>
-                <input type="text" name="subject" placeholder=""></label>
-            </div>
-            <div>
-                <label>お問い合わせの具体的な内容<br>
-                <textarea name="message"></textarea></label>
-            </div>
-            <div>
-                <input type="submit" name="submit" value="送信">
-            </div>
-        </form>
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <p class="hidden">
+                  <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                </p>
+                <p>
+                  <label>Email: <input type="text" name="email" /></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
     </main>
     <!--メインここまで-->
     <!--フッター-->
