@@ -240,8 +240,16 @@ input [type="submit"] {
     width: 30em;
 }
 
+.hidden{
+    display: none;
+}
+
 /*スマートフォン向けCSS*/
 @media (max-width: 767px) {
+    main{
+        padding-top: 150px;
+    }
+    
     /* 全体 - ナビゲーション*/
     .wrapper {
         margin: 0 8px;
@@ -252,43 +260,72 @@ input [type="submit"] {
     .logo img {
         width: 200px;
     }
+
     .nav li {
-        background-color: #dfddda;
+        display: block;
     }
-    .nav li {
+    /* index.html */
+    .short_explanation{
+        display: none;
+    }
+
+    .image_box_left{
+        font-size: 20px;
+        padding: 10%;
+        text-align: center;
+        width: 60%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    /* news */
+    .instagram {
+        width: 100%;
+        display: block;
+        margin-right:60px; 
+        margin-left: 30px;
+    }
+
+    .twitter{
+        width: 100%;
+        padding:0 50px;
+        display: block;
+        margin-left: 30px;
+
+    }
+
+    .top_image{
         display: block;
     }
 
-    /* menu.html - 横並び解除*/
-    .menu-item {
+    /* profile.html */
+    .profile-image{
+        width: 60%;
+        height: 60%;
+    }    
+    .profile-name{
+        text-align: center;
+        padding: 5px 20px;
+    }
+
+    name.en{
         display: block;
     }
-    .menu-photo {
-        margin-right: 0;
-        width: 100%;
+
+    name.jp{
+        display: block;
     }
-    .menu-text {
-        width: 100%;
+
+    .profile{
+        padding: 5px 10px;
     }
+    /* menu.html - 横並び解除*/
+    
 
     /* about.html - 画像のパディングを調整　*/
-    .shop-photo {
-        padding-right: 0;
-        float: none;
-    }
+   
 
     /* contact.html - フォーム */
-    select {
-        width: 100%;
-    }
-    input[name="subject"] {
-        width: 100%;
-    }
-    textarea {
-        width: 100%;
-    }
-    input[name="submit"] {
-        margin: 20px 0;
-        width: 100%;
+    .hidden{
+        display: none;
     }
 }
