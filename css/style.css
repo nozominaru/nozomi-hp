@@ -146,18 +146,16 @@ main{
 }
 /* news */
 .instagram {
-    width: 300px;
+    width: 100%;
     display: block;
-    margin-right:60px; 
-    margin-left: 30px;
-
+    margin-right:5%; 
+    margin-left: 20%;
 }
 
 .twitter{
-    padding:0 50px;
-    text-align: right;
+    padding:0 10% 0 10%;
     display: block;
-    margin-left: 30px;
+    margin-left: 40%;
     
 }
 
@@ -289,7 +287,16 @@ input [type="submit"] {
 
     .twitter{
         text-align: center;
+        padding: 0;
         margin: 0px;
+    }
+
+    /* news */
+    .instagram {
+        width: 100%;
+        display: block;
+        margin-right:0; 
+        margin-left: 0;
     }
 
     /* profile.html */
