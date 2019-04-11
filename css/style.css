@@ -278,23 +278,18 @@ input [type="submit"] {
         padding-right: 5%;
     }
     /* news */
-    .instagram {
-        width: 100%;
-        display: block;
-        margin-right:60px; 
-        margin-left: 30px;
-    }
 
-    .twitter{
-        width: 100%;
-        padding:0 50px;
+    td{
         display: block;
-        margin-left: 30px;
-
     }
 
     .top_image{
         display: block;
+    }
+
+    .twitter{
+        text-align: center;
+        margin: 0px;
     }
 
     /* profile.html */
