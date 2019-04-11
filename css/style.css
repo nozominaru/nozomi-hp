@@ -215,9 +215,14 @@ main{
     
 }
 .movie{
+    text-align: center;
     margin: 0.5em 0 1em 0 ;
 }
 
+.mv{
+    width: 60%;
+    height: 300px;
+}
 /* contact.html */
 form div {
     padding: 12px;
@@ -320,12 +325,13 @@ input [type="submit"] {
     .profile{
         padding: 5px 10px;
     }
-    /* menu.html - 横並び解除*/
+
+    /*work*/
+    .mv{
+        width: 90%;
+        height: 200px;
+    }
     
-
-    /* about.html - 画像のパディングを調整　*/
-   
-
     /* contact.html - フォーム */
     .hidden{
         display: none;
