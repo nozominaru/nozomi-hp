@@ -238,6 +238,11 @@ textarea {
     width: 30em;
     height: 6em;
 }
+
+textarea[name="message"]{
+    display: block;
+}
+
 input [type="submit"] {
     margin: 20px 0;
     width: 30em;
@@ -331,7 +336,7 @@ input [type="submit"] {
         width: 90%;
         height: 200px;
     }
-    
+
     /* contact.html - フォーム */
     .hidden{
         display: none;
