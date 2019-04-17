@@ -351,4 +351,9 @@ input [type="submit"] {
     .hidden{
         display: none;
     }
+
+    textarea {
+        width: 100%;
+        height: 6em;
+    }
 }
