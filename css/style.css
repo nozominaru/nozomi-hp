@@ -198,6 +198,13 @@ main{
     font-weight: bold;
 }
 
+.news2 {color: #000000;
+    font-size:medium ;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
 .line-icon {
     width: 126px;
     height: 39px;
